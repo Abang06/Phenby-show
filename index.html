@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PHENBY SHOW</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+  <header>
+    <h1>PHENBY SHOW</h1>
+    <p>L’émission qui révolutionne vos week-ends</p>
+    <p><strong>En direct : 15h - 17h | Amplitude FM 103.3 MHz</strong></p>
+  </header>
+
+  <section class="animateurs">
+    <h2>Les Animateurs</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/animateur1.jpg" alt="Animateur 1">
+          <h3>Phénix</h3>
+          <p>L’énergie du show</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/animateur2.jpg" alt="Animateur 2">
+          <h3>Byron</h3>
+          <p>Le maestro du micro</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Téléphone : 694313198 / 694536243</p>
+    <p>Suivez-nous sur :</p>
+    <div class="socials">
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PHENBY SHOW - Tous droits réservés</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+</html>
